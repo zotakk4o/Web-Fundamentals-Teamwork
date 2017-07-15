@@ -1,9 +1,16 @@
 @media all and (min-width: 1200px) {
     header.main-header nav ul li {
-        padding: 20px 25px;
+        padding-right: 25px;
     }
     header.main-header nav ul li a {
         font-size: 26px;
+    }
+}
+@media all and (min-width: 769px){
+    header.main-header nav ul li {
+        display: flex; 
+        align-items: center;
+        height: 10%;
     }
 }
 @media all and (max-width: 768px){
